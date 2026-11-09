@@ -1,6 +1,12 @@
-node_modules/
+# Secretos
 .env
 .env.*
-!.env.example
-*.log
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Sistema
 .DS_Store
+*.log
